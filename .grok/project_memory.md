@@ -1,0 +1,4 @@
+- Task: binary sentiment classifier on Amazon Reviews 2023 Gift Cards using only title+text as features [2026-09-21]
+- Source: https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Gift_Cards.jsonl.gz (12MB gz, 152,410 JSONL reviews) [2026-09-21]
+- Review fields present on every row: rating, title, text, images, asin, parent_asin, user_id, timestamp, helpful_vote, verified_purchase [2026-09-21]
+- Rating counts: 1.0=12326, 2.0=1873, 3.0=3271, 4.0=6692, 5.0=128248. Empty text=49, empty title=0. Mean title len=18.4 chars, mean text len=83.3 chars [2026-09-21]

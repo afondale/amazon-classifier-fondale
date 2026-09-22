@@ -1,0 +1,482 @@
+[
+  {
+    "title": "DO NOT BUY !",
+    "text": "Do not buy these gift cards. I bought 4 - $50 gift cards for birthday gift and Top Golf would only use one gift card per visit. These are not coupons, they were paid for. In order to use these would require 4 separate visits. Do not make the same mistake !!",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.987523048972722,
+    "p_neutral": 0.011469906779185758,
+    "p_positive": 0.0010070442480923098,
+    "why": "Called negative because \"not\", \"do not\", and \"not buy\" carried the score, despite \"gift\"."
+  },
+  {
+    "title": "It did not have any money on the Card!",
+    "text": "What a rip-off. I gave this card as a gift. The individual tried it this month with no luck. There is ZERO dollars on it. The one-month time frame to \"return\" it is totally nonsense. If this is a gift card, it is likely that many won't even try it until weeks later. Thanks for ripping me off $200",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.9973202983264754,
+    "p_neutral": 0.0012705329135652649,
+    "p_positive": 0.0014091687599593731,
+    "why": "Called negative because \"zero\", \"rip off\", and \"weeks\" carried the score."
+  },
+  {
+    "title": "Very Tricky",
+    "text": "You have to put in $100 ALL AT ONCE. I had about $15 in credit left, so I put in $85. Guess what? NO BONUS!",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.8464517020758177,
+    "p_neutral": 0.02281362827079362,
+    "p_positive": 0.1307346696533887,
+    "why": "Called negative because \"put in\", \"guess\", and \"no\" carried the score, despite \"once\"."
+  },
+  {
+    "title": "casi imposible recargar la cuenta tener paciencia",
+    "text": "Lo que me agrado fue poder juntar el dinero que necesite para la compra . Lo que no me agrado fue que al realizar la recargas bloqueaban mi cuenta por actividad inusual a pesar que todos los datos eran correctos y la tarjeta era de mi propiedad tanto como la cuenta todo a mi nombre .mi cuenta tiene el doble factor activo . Pero no era suficiente deber\u00eda existir una Pre alerta para No tener esos problemas",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.9292720479200249,
+    "p_neutral": 0.009481281995413789,
+    "p_positive": 0.06124667008456135,
+    "why": "Called negative because \"la\", \"que\", and \"no\" carried the score."
+  },
+  {
+    "title": "Charge to much",
+    "text": "\ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f",
+    "actual": "negative",
+    "predicted": "positive",
+    "p_negative": 0.13042683920834608,
+    "p_neutral": 0.20477766884710352,
+    "p_positive": 0.6647954919445505,
+    "why": "Called positive because \"much\" carried the score, despite \"to\" and \"charge\"."
+  },
+  {
+    "title": "huh?",
+    "text": "it was super weird!",
+    "actual": "negative",
+    "predicted": "positive",
+    "p_negative": 0.4129670196822825,
+    "p_neutral": 0.007925055123582105,
+    "p_positive": 0.5791079251941355,
+    "why": "Called positive because \"super\", \"it was\", and \"was super\" carried the score, despite \"was\" and \"weird\"."
+  },
+  {
+    "title": "Card wouldn't work.",
+    "text": "I gave the card as a gift and the person had to call customer service because it wouldn't work. How embarrassing.",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.8026742318497042,
+    "p_neutral": 0.1731395181561102,
+    "p_positive": 0.02418624999418553,
+    "why": "Called negative because \"embarrassing\", \"customer service\", and \"because it\" carried the score, despite \"service\"."
+  },
+  {
+    "title": "Added directly to my Amazon account.",
+    "text": "Nothing",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.6502413519807436,
+    "p_neutral": 0.056812179436705794,
+    "p_positive": 0.2929464685825507,
+    "why": "Called negative because \"directly\", \"amazon\", and \"my amazon\" carried the score, despite \"to my\" and \"directly to\"."
+  },
+  {
+    "title": "It\u2019s a scam! Do NOT buy it!",
+    "text": "I bought this gift card, registered it online, added a pin number, etc. It does not work anywhere! I tried gas stations, grocery stores\u2026 Tried to use it online on Amazon, and even though the transaction was deducted from the available balance, it was later rejected. Tried to contact their customer service and there is no one available to help you with that kind of thing. Grateful Amazon is going to refund me the money after contacting their customer service, but beware!",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.9351377503696782,
+    "p_neutral": 0.0639820963720934,
+    "p_positive": 0.0008801532582284525,
+    "why": "Called negative because \"tried\", \"scam\", and \"not\" carried the score."
+  },
+  {
+    "title": "Useless does not work",
+    "text": "Would give 0 stars- gift card DOES NOT WORK completely useless the gift recipient couldn\u2019t use it I am extremely disappointed.",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.9949596708121774,
+    "p_neutral": 0.004867681454545161,
+    "p_positive": 0.00017264773327742855,
+    "why": "Called negative because \"useless\", \"not\", and \"disappointed\" carried the score, despite \"stars\"."
+  },
+  {
+    "title": "Frustrated \ud83d\ude20",
+    "text": "Keeps asking me to revise payment. Seems to take revision, says processing. Leave site, come back,says revise again. Did this several times,different payment options. Cannot cancel order, can't find sufficient customer service easily. There is a glitch and I need talk to someone to get it off my account \ud83d\ude43.",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.9807561592187857,
+    "p_neutral": 0.015506526998455403,
+    "p_positive": 0.0037373137827589878,
+    "why": "Called negative because \"says\", \"cannot\", and \"talk\" carried the score, despite \"it off\" and \"easily\"."
+  },
+  {
+    "title": "Visa debit card (unable to activate)",
+    "text": "How do you activate the card. In stores it is activated upon purchase. By mail as the purchase of this was it's not valid and cannot be used. Tell me how to activate it and I'll keep it, otherwise I'm returning it.",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.9816182983235887,
+    "p_neutral": 0.012863261276267681,
+    "p_positive": 0.0055184404001437076,
+    "why": "Called negative because \"activate\", \"unable\", and \"cannot\" carried the score, despite \"otherwise\"."
+  },
+  {
+    "title": "Never bought this",
+    "text": "Didn\u2019t not purchased",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.9985763331234375,
+    "p_neutral": 0.001348041589564267,
+    "p_positive": 7.56252869984243e-05,
+    "why": "Called negative because \"never\", \"not\", and \"didn\" carried the score."
+  },
+  {
+    "title": "Just give them cash",
+    "text": "It's so impractical.",
+    "actual": "negative",
+    "predicted": "positive",
+    "p_negative": 0.06098713423019446,
+    "p_neutral": 0.28617267347905745,
+    "p_positive": 0.6528401922907481,
+    "why": "Called positive because \"cash\", \"so\", and \"them\" carried the score, despite \"give\" and \"it\"."
+  },
+  {
+    "title": "Promised bonus not added",
+    "text": "I had got a pop up that $10 bonus will be added after $100 reload. But I didn't receive that",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.6716240464031283,
+    "p_neutral": 0.2416594684891186,
+    "p_positive": 0.08671648510775298,
+    "why": "Called negative because \"not\", \"didn receive\", and \"didn\" carried the score, despite \"will be\" and \"pop\"."
+  },
+  {
+    "title": "One Star",
+    "text": "Amazon totally messed up delivery date. Will never order again !",
+    "actual": "negative",
+    "predicted": "negative",
+    "p_negative": 0.9980703373681753,
+    "p_neutral": 0.0004089718858473792,
+    "p_positive": 0.0015206907459772608,
+    "why": "Called negative because \"one star\", \"never\", and \"star\" carried the score."
+  },
+  {
+    "title": "Love amazon gift card boxes, hate Amazon's policy of gift balances & Prime memberships",
+    "text": "Nicely wrapped and exactly what my mom wanted. Please note: Amazon's policy of making it nearly impossible to renew your Prime membership with a gift card is really, really frustrating. She asks for the Gift of Prime every year (for nostalgia reasons because I showed her all the benefits and convinced her to join Amazon originally back in the day), and we have to cancel her account, wait for it to expire, then gift herself the Gift of Prime after it expires. It's really frustrating.",
+    "actual": "neutral",
+    "predicted": "positive",
+    "p_negative": 0.2848894425286993,
+    "p_neutral": 0.2324588878480943,
+    "p_positive": 0.4826516696232064,
+    "why": "Called positive because \"gift\", \"love\", and \"nicely\" carried the score, despite \"frustrating\" and \"prime\"."
+  },
+  {
+    "title": "amazon gift card",
+    "text": "It was difficult to figure out how to use the card with the Kindle. It would be great if there were an obvious option in the kindle itself to upload the card. I had to do it logging into my amazon.com account online with my computer.",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.14748239515393252,
+    "p_neutral": 0.8121281890085306,
+    "p_positive": 0.0403894158375368,
+    "why": "Called neutral because \"kindle\", \"difficult to\", and \"had to\" carried the score, despite \"do it\" and \"into my\"."
+  },
+  {
+    "title": "Works ok",
+    "text": "Easy process, but didn't get my $5 credit!",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.1976697539500184,
+    "p_neutral": 0.7129444599324641,
+    "p_positive": 0.08938578611751748,
+    "why": "Called neutral because \"but\", \"ok\", and \"didn get\" carried the score, despite \"easy process\" and \"process\"."
+  },
+  {
+    "title": "Someone didn't care",
+    "text": "The card and snowflake holder were intact but the gift note inside was crumpled. What a way to present a gift!",
+    "actual": "neutral",
+    "predicted": "negative",
+    "p_negative": 0.4943168021941557,
+    "p_neutral": 0.33803438992183793,
+    "p_positive": 0.16764880788400635,
+    "why": "Called negative because \"didn\", \"someone\", and \"but the\" carried the score, despite \"inside\" and \"gift\"."
+  },
+  {
+    "title": "Three Stars",
+    "text": "Did not have gift card holder...",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.00017613952978063325,
+    "p_neutral": 0.9997124176490878,
+    "p_positive": 0.00011144282113158832,
+    "why": "Called neutral because \"three stars\", \"three\", and \"card holder\" carried the score, despite \"gift card\"."
+  },
+  {
+    "title": "Three Stars",
+    "text": "Ok",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 3.221869550189425e-06,
+    "p_neutral": 0.9999807508183792,
+    "p_positive": 1.6027312070528088e-05,
+    "why": "Called neutral because \"three stars\", \"three\", and \"ok\" carried the score, despite \"stars\" and \"stars ok\"."
+  },
+  {
+    "title": "I need 5 sleeves for my 5 $10 bookmark Amazon cards",
+    "text": "I received the cute Amazon bookmark $10 gift cards today - I purchased 5 of them. I\u2019m upset they did not come with the sleeves. That was part of the charm of the bookmark cards. I also ordered 4 $25 bookmark cards & they did come with the sleeves. I would like 5 sleeves for my 5 $10 bookmark cards. I got a $10 bookmark card as a gift last year & it had a sleeve. I would have given 5 stars if I had received the sleeves for the bookmarks. Cute idea using a bookmark.",
+    "actual": "neutral",
+    "predicted": "positive",
+    "p_negative": 0.22116574672390385,
+    "p_neutral": 0.17979423254572408,
+    "p_positive": 0.5990400207303721,
+    "why": "Called positive because \"bookmark\", \"cute\", and \"got 10\" carried the score, despite \"not\" and \"the\"."
+  },
+  {
+    "title": "Three Stars",
+    "text": "The sticky stuff holding the cards together was a bear to remove, even with Goo Gone.",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.004811638554688735,
+    "p_neutral": 0.9917420752447449,
+    "p_positive": 0.0034462862005664795,
+    "why": "Called neutral because \"three stars\", \"three\", and \"holding\" carried the score, despite \"gone\" and \"even\"."
+  },
+  {
+    "title": "The gift card is great but now there's just too many snowflakes",
+    "text": "The gift card is great but now there's just too many snowflakes... Should have picked up Santa with the Ho! Ho! Ho!",
+    "actual": "neutral",
+    "predicted": "negative",
+    "p_negative": 0.5029370419312541,
+    "p_neutral": 0.2007994829690356,
+    "p_positive": 0.2962634750997104,
+    "why": "Called negative because \"now\", \"many\", and \"too\" carried the score, despite \"is great\" and \"great\"."
+  },
+  {
+    "title": "Adding gift balance helps",
+    "text": "Used for gift card balance",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.08304079258367386,
+    "p_neutral": 0.46473755855575655,
+    "p_positive": 0.45222164886056965,
+    "why": "Called neutral because \"gift balance\", \"used for\", and \"helps\" carried the score, despite \"balance\" and \"gift card\"."
+  },
+  {
+    "title": "Pretty good card!",
+    "text": "Bought for my daughter for her birthday and she loved it! The only issue is that it was very hard to activate.",
+    "actual": "neutral",
+    "predicted": "positive",
+    "p_negative": 0.060939675070698855,
+    "p_neutral": 0.028113555295308255,
+    "p_positive": 0.9109467696339929,
+    "why": "Called positive because \"loved\", \"good card\", and \"the only\" carried the score, despite \"only\" and \"hard to\"."
+  },
+  {
+    "title": "I recommend purchasing Amazon gift cards, but....",
+    "text": "Love the look of the tin, the wrapping, and the fast service (with Prime of course), but since I purchased 5 of $50 gift cards and 5 or $100 gift cards, I had to unwrap all of them to see the denomination. Which means that the wrapping that I paid for is now ruined because it was put together so well that the double stick tape pulled off the color on the box. I still recommend the wrapping ONLY if you purchase one denomination. Wish they could have indicated which denomination was which with a sticker of some sort or different color box.",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.05877228538333867,
+    "p_neutral": 0.90216234151481,
+    "p_positive": 0.03906537310185121,
+    "why": "Called neutral because \"but\", \"the wrapping\", and \"which\" carried the score, despite \"now\" and \"denomination\"."
+  },
+  {
+    "title": "Gift",
+    "text": "Gift",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.03123681414080475,
+    "p_neutral": 0.524956184463165,
+    "p_positive": 0.44380700139603013,
+    "why": "Called neutral because \"gift gift\" carried the score, despite \"gift\"."
+  },
+  {
+    "title": "Its a gift card.",
+    "text": "What can I say...its a gift card. The mini envelope was useless.",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.09624525946656444,
+    "p_neutral": 0.6456417743587901,
+    "p_positive": 0.2581129661746453,
+    "why": "Called neutral because \"its gift\", \"say its\", and \"mini\" carried the score, despite \"gift card\" and \"useless\"."
+  },
+  {
+    "title": "I won't purchase any more gift cards.",
+    "text": "This was a gift. One of the cards was not activated and couldn't be used.",
+    "actual": "neutral",
+    "predicted": "negative",
+    "p_negative": 0.8944567852619932,
+    "p_neutral": 0.05576697200161775,
+    "p_positive": 0.049776242736389094,
+    "why": "Called negative because \"any more\", \"won\", and \"not\" carried the score, despite \"one of\" and \"cards this\"."
+  },
+  {
+    "title": "No no for digital songs/album purchase from outside of USA",
+    "text": "i was not able to use the gift card to purchase digital songs/album from outside of USA",
+    "actual": "neutral",
+    "predicted": "neutral",
+    "p_negative": 0.3545231288375597,
+    "p_neutral": 0.6182565325425324,
+    "p_positive": 0.02722033861990782,
+    "why": "Called neutral because \"outside\", \"outside of\", and \"was not\" carried the score, despite \"to purchase\" and \"purchase from\"."
+  },
+  {
+    "title": "That's a lot of wings",
+    "text": "Bought this gift card because it was 39$ for a 50$ gift card and I love me some half price apps. There boneless wings are far superior to BWW and a whole lot cheaper (half price app time) and you're a fool if you think otherwise.",
+    "actual": "positive",
+    "predicted": "neutral",
+    "p_negative": 0.32919574926071077,
+    "p_neutral": 0.4086056274531641,
+    "p_positive": 0.2621986232861252,
+    "why": "Called neutral because \"otherwise\", \"price\", and \"think\" carried the score, despite \"lot\" and \"you think\"."
+  },
+  {
+    "title": "No brainer",
+    "text": "It's a gift card",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.00931484637947204,
+    "p_neutral": 0.15994387903784912,
+    "p_positive": 0.8307412745826788,
+    "why": "Called positive because \"brainer\", \"no brainer\", and \"it gift\" carried the score, despite \"no\" and \"card\"."
+  },
+  {
+    "title": "Five Stars",
+    "text": "good",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 3.78139303643144e-06,
+    "p_neutral": 5.152419809055775e-05,
+    "p_positive": 0.999944694408873,
+    "why": "Called positive because \"five stars\", \"five\", and \"stars\" carried the score."
+  },
+  {
+    "title": "HAPPY AS A PIG IN S***!",
+    "text": "Gave it to my niece and she was happy as a pig in a ton of s***, she is ordering some whack s*** as I type.",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.014074953721054212,
+    "p_neutral": 0.07781664228665251,
+    "p_positive": 0.9081084039922933,
+    "why": "Called positive because \"happy\", \"as\", and \"she\" carried the score, despite \"is\" and \"type\"."
+  },
+  {
+    "title": "Gift card is always great!",
+    "text": "I got a gift card for my grandson who was thrilled that he could go online and choose exactly what he wanted!!",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.006194477293466697,
+    "p_neutral": 0.00036115397255105154,
+    "p_positive": 0.9934443687339822,
+    "why": "Called positive because \"he\", \"great\", and \"thrilled\" carried the score, despite \"card\"."
+  },
+  {
+    "title": "Five Stars",
+    "text": "Came within 2 days was able to load it onto my starbuck account without any problems.",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.006135830801004957,
+    "p_neutral": 0.002141849941547177,
+    "p_positive": 0.9917223192574479,
+    "why": "Called positive because \"five stars\", \"was able\", and \"within\" carried the score, despite \"without\"."
+  },
+  {
+    "title": "Gift Card",
+    "text": "I liked the cute tin it came in and the convenience of the gift card",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.019404985155151384,
+    "p_neutral": 0.2253704656081414,
+    "p_positive": 0.7552245492367072,
+    "why": "Called positive because \"cute\", \"gift\", and \"liked\" carried the score, despite \"card\" and \"the\"."
+  },
+  {
+    "title": "Five Stars",
+    "text": "Always the right size and color!",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.001228864346315851,
+    "p_neutral": 0.0023101217357067226,
+    "p_positive": 0.9964610139179775,
+    "why": "Called positive because \"five stars\", \"five\", and \"stars\" carried the score, despite \"the\"."
+  },
+  {
+    "title": "Handy to fill account for later.",
+    "text": "Like to add to account. Works well.",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.009245979022748017,
+    "p_neutral": 0.038676775429001393,
+    "p_positive": 0.9520772455482506,
+    "why": "Called positive because \"handy\", \"well\", and \"like to\" carried the score, despite \"to\"."
+  },
+  {
+    "title": "Five Stars",
+    "text": "Easy use.",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 3.497567663182119e-05,
+    "p_neutral": 0.0001415652642034704,
+    "p_positive": 0.9998234590591647,
+    "why": "Called positive because \"five stars\", \"five\", and \"stars\" carried the score."
+  },
+  {
+    "title": "As described.",
+    "text": "What's to review really? Item is as described. Easy to use, sometimes too easy (lol). Great for online purchases when you do not want to give a primary card number.",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.003962815173705167,
+    "p_neutral": 0.2982015877210149,
+    "p_positive": 0.69783559710528,
+    "why": "Called positive because \"easy\", \"great\", and \"as described\" carried the score, despite \"not\" and \"too\"."
+  },
+  {
+    "title": "Five Stars",
+    "text": "AWESOME",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 2.5259221173343698e-05,
+    "p_neutral": 0.0002157698974705045,
+    "p_positive": 0.9997589708813561,
+    "why": "Called positive because \"five stars\", \"five\", and \"stars\" carried the score."
+  },
+  {
+    "title": "Visa Gift Card to Amazon Cash",
+    "text": "I received a VISA gift card and didn't want to have to deal with losing the card. So I just charged the gift card through this reload process and got all my gift money. Happy that this is a choice.",
+    "actual": "positive",
+    "predicted": "negative",
+    "p_negative": 0.6670588334636047,
+    "p_neutral": 0.007663039115084047,
+    "p_positive": 0.32527812742131124,
+    "why": "Called negative because \"charged\", \"didn\", and \"this\" carried the score, despite \"gift\" and \"so just\"."
+  },
+  {
+    "title": "A Big Help",
+    "text": "This solve the problem when your bank gives you a limit per day on your card.",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.3532874020831747,
+    "p_neutral": 0.24743371683479393,
+    "p_positive": 0.39927888108203136,
+    "why": "Called positive because \"on your\", \"gives you\", and \"gives\" carried the score, despite \"the problem\" and \"per\"."
+  },
+  {
+    "title": "Adorable!",
+    "text": "This is the cutest gift card holder, especially for someone who is a Prime addict!",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.011038879362876073,
+    "p_neutral": 0.018679561627212647,
+    "p_positive": 0.9702815590099112,
+    "why": "Called positive because \"adorable\", \"cutest\", and \"especially\" carried the score, despite \"is\" and \"prime\"."
+  },
+  {
+    "title": "LOVE AMAZON Gift Card Balance Reload!",
+    "text": "It's fast an efficient, like having a flexible spending account whenever you want to treat yourself or that special someone!",
+    "actual": "positive",
+    "predicted": "positive",
+    "p_negative": 0.002273793786742714,
+    "p_neutral": 0.009155915403539756,
+    "p_positive": 0.9885702908097175,
+    "why": "Called positive because \"love\", \"fast\", and \"efficient\" carried the score, despite \"it fast\"."
+  }
+]

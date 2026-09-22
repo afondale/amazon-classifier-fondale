@@ -1,0 +1,325 @@
+{
+  "name": "Foil",
+  "source": "Amazon Reviews 2023 \u2014 Gift Cards",
+  "source_url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Gift_Cards.jsonl.gz",
+  "features_used": [
+    "title",
+    "text"
+  ],
+  "label_rule": "rating 1\u20132 \u2192 negative, 3 \u2192 neutral, 4\u20135 \u2192 positive",
+  "model": "TF-IDF unigrams+bigrams (8,000 features) + class-weighted multinomial logistic regression",
+  "constraint": "The classifier never sees rating, asin, user, votes, or verified-purchase \u2014 only title and body.",
+  "n_raw": 152410,
+  "n_empty_dropped": 0,
+  "n_labeled": 152410,
+  "n_negative": 14199,
+  "n_neutral": 3271,
+  "n_positive": 134940,
+  "rating_counts": {
+    "1": 12326,
+    "2": 1873,
+    "3": 3271,
+    "4": 6692,
+    "5": 128248
+  },
+  "n_train": 129421,
+  "n_test": 22839,
+  "n_batch_holdout": 150,
+  "split": "150 balanced holdout (50/class, seed 42) + 15% stratified test of the remainder; train on the rest",
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "test": {
+    "split": "stratified remainder test",
+    "n": 22839,
+    "accuracy": 0.9082709400586716,
+    "macro_f1": 0.6668041414883392,
+    "negative": {
+      "precision": 0.7401315789473685,
+      "recall": 0.8482563619227145,
+      "f1": 0.7905138339920948
+    },
+    "neutral": {
+      "precision": 0.16581632653061223,
+      "recall": 0.5383022774327122,
+      "f1": 0.25353486104339346
+    },
+    "positive": {
+      "precision": 0.9917723870693773,
+      "recall": 0.9233962637145399,
+      "f1": 0.9563637294295293
+    },
+    "confusion": {
+      "negative": {
+        "negative": 1800,
+        "neutral": 246,
+        "positive": 76
+      },
+      "neutral": {
+        "negative": 144,
+        "neutral": 260,
+        "positive": 79
+      },
+      "positive": {
+        "negative": 488,
+        "neutral": 1062,
+        "positive": 18684
+      }
+    }
+  },
+  "baseline_majority": {
+    "class": "positive",
+    "accuracy": 0.8853749753953153,
+    "macro_f1": 0.0
+  },
+  "top_features": {
+    "negative": [
+      {
+        "term": "one star",
+        "weight": 7.5708184286616085
+      },
+      {
+        "term": "two stars",
+        "weight": 7.49387038031016
+      },
+      {
+        "term": "scam",
+        "weight": 5.48051058023041
+      },
+      {
+        "term": "not",
+        "weight": 4.729606468536575
+      },
+      {
+        "term": "never",
+        "weight": 4.668492091351402
+      },
+      {
+        "term": "don buy",
+        "weight": 4.5313736789120265
+      },
+      {
+        "term": "now",
+        "weight": 4.4994561370149055
+      },
+      {
+        "term": "poor",
+        "weight": 4.217801195545617
+      },
+      {
+        "term": "useless",
+        "weight": 4.10804870666369
+      },
+      {
+        "term": "ripped",
+        "weight": 4.03099957834227
+      },
+      {
+        "term": "awful",
+        "weight": 4.007060483624011
+      },
+      {
+        "term": "disappointed",
+        "weight": 3.9587158660999897
+      },
+      {
+        "term": "don",
+        "weight": 3.947224863860344
+      },
+      {
+        "term": "terrible",
+        "weight": 3.7534646883177065
+      },
+      {
+        "term": "worthless",
+        "weight": 3.7041162824202205
+      },
+      {
+        "term": "horrible",
+        "weight": 3.6757908421189818
+      },
+      {
+        "term": "sucks",
+        "weight": 3.6721089813159544
+      },
+      {
+        "term": "unacceptable",
+        "weight": 3.5529994549133237
+      },
+      {
+        "term": "no balance",
+        "weight": 3.5026101665226665
+      },
+      {
+        "term": "refund",
+        "weight": 3.4713093964557378
+      }
+    ],
+    "neutral": [
+      {
+        "term": "three stars",
+        "weight": 11.439253946652466
+      },
+      {
+        "term": "however",
+        "weight": 4.686331213769298
+      },
+      {
+        "term": "otherwise",
+        "weight": 4.4759922628361535
+      },
+      {
+        "term": "but",
+        "weight": 4.1993841921088455
+      },
+      {
+        "term": "video",
+        "weight": 3.4555161631495985
+      },
+      {
+        "term": "very simple",
+        "weight": 3.453172927901634
+      },
+      {
+        "term": "three",
+        "weight": 3.4257656151264233
+      },
+      {
+        "term": "clean",
+        "weight": 3.418931034994339
+      },
+      {
+        "term": "stars because",
+        "weight": 3.3717853399209314
+      },
+      {
+        "term": "was disappointed",
+        "weight": 3.364156397603974
+      },
+      {
+        "term": "carefully",
+        "weight": 3.273233117302376
+      },
+      {
+        "term": "limited",
+        "weight": 3.2204077263322697
+      },
+      {
+        "term": "cute but",
+        "weight": 3.019024251289971
+      },
+      {
+        "term": "crushed",
+        "weight": 3.0136067205012713
+      },
+      {
+        "term": "said the",
+        "weight": 3.009400547521043
+      },
+      {
+        "term": "was bit",
+        "weight": 3.002721502790147
+      },
+      {
+        "term": "card purchased",
+        "weight": 3.0013394326380944
+      },
+      {
+        "term": "however the",
+        "weight": 2.9776394434793785
+      },
+      {
+        "term": "never got",
+        "weight": 2.9744313822214585
+      },
+      {
+        "term": "load money",
+        "weight": 2.972187622657894
+      }
+    ],
+    "positive": [
+      {
+        "term": "five stars",
+        "weight": 7.493258290569844
+      },
+      {
+        "term": "love",
+        "weight": 5.318768209448265
+      },
+      {
+        "term": "five",
+        "weight": 5.3024002943985105
+      },
+      {
+        "term": "stars",
+        "weight": 4.931142876094292
+      },
+      {
+        "term": "great",
+        "weight": 4.8852429595794975
+      },
+      {
+        "term": "cute",
+        "weight": 4.419897765413308
+      },
+      {
+        "term": "excellent",
+        "weight": 4.319598176005552
+      },
+      {
+        "term": "perfect",
+        "weight": 4.203250468038762
+      },
+      {
+        "term": "four stars",
+        "weight": 4.076335763048959
+      },
+      {
+        "term": "loved",
+        "weight": 4.0548386236125635
+      },
+      {
+        "term": "easy",
+        "weight": 4.033458403303959
+      },
+      {
+        "term": "go wrong",
+        "weight": 3.85901897199637
+      },
+      {
+        "term": "adorable",
+        "weight": 3.505043084211612
+      },
+      {
+        "term": "loves",
+        "weight": 3.443294161533711
+      },
+      {
+        "term": "no problems",
+        "weight": 3.332135611344837
+      },
+      {
+        "term": "nice",
+        "weight": 3.3042643426408733
+      },
+      {
+        "term": "beautiful",
+        "weight": 3.0552682905417146
+      },
+      {
+        "term": "so easy",
+        "weight": 2.9847119863006695
+      },
+      {
+        "term": "gift",
+        "weight": 2.948937568699973
+      },
+      {
+        "term": "fast",
+        "weight": 2.9389883601732416
+      }
+    ]
+  }
+}
